@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./public/images/favicon.png" type="image/x-icon">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-rn+NLSw1EqbiIBvC9XNWXMbKYgD62FapmE9plgODQeJ9oFg57mXmxLu4llldNHkUkLvxyZ2y5obBQqMYmH5B9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Plants Hub</title>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="hamburger" id="hamburger" onclick="openSideMenu()">
+      <img src="./public/images/humburger.svg" alt="Menu">
+  </div>
+    <div class="name">PlantsHub.</div>
+    <div class="navigation" id="navigation">
+      <a href="">Home</a>
+      <a href="">Collection</a>
+      <a href="">Shop</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+    </div>
+    <div class="icons" id="icons">
+ <img src="./public/images/shopping-bag.svg" alt="shopping bag">
+        <!-- <div class="checkbox-wrapper-25">
+          <input type="checkbox" id="checkbox">
+        </div> -->
+        <!-- <img src="./public/images/user.svg" alt="User"> -->
+        <img src="./public/images/search-icon.svg" alt="Search">
+    </div>
+</nav>
+ 
+
+<!-- <img src="./public/images/ui.png" alt=""> -->
+
+<!--hero section-->
+<section class="hero">
+  <div class="hero-content">
+    <h1>MONSTERA</h1>
+    <span>Welcome to PlantsHub, where we showcase the beauty and diversity <br> of our planet's natural wonders, celebrate lush greenery, and explore <br> the incredible world of plants all in one place.</span>
+    <button href="" class="btn">Discover Now &RightArrow;</button>
+  </div>
+  <img src="./public/images/heroimg.png" alt="Hero Image" class="hero-image">
+</section>
+
+
+
+<!--services secion-->
+<section class="servicess">
+<h1>Services We Provide!</h1>
+<div class="services">
+  <div class="service">
+    <img src="./public/images/firstservice.svg" alt="">
+    <div class="content">
+      <h3>Feeding</h3>
+      <span>Lorem, ipsum dolor sit amet consectetur adipisicing magni.</span>  
+    </div>
+  </div>
+  <div class="service">
+    <img src="./public/images/secondservice.svg" alt="">
+    <div class="content">
+      <h3>Light</h3>
+      <span>Lorem, ipsum dolor sit amet consectetur adipisicing magni.</span>  
+    </div>
+  </div>
+  <div class="service">
+    <img src="./public/images/thirdservice.svg" alt="">
+    <div class="content">
+      <h3>Care</h3>
+      <span>Lorem, ipsum dolor sit amet consectetur adipisicing magni.</span>  
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!--canvas-->
+<div class="images">
+  <div class="img1">
+    <img src="./public/images/table-leaves-awesome background.png" alt="" width="500px">
+  </div>
+  <div class="img2">
+    <img src="./public/images/table-leaves-awesome background.png" alt="" width="500px">
+  </div>
+</div>
+
+<!--offer section-->
+<section class="items-section">
+  <h1>Our Offer's !</h1>
+  <div class="items">
+    <div class="item1">
+      <img src="./public/images/item1.jpg" alt="natural plants">
+      <div class="content">
+        <h3>Natural Plants</h3>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi at aliquam unde id, nihil dolorum tempora aut temporibus</span>
+      </div>
+    </div>
+    <div class="item2-nested">
+      <div class="item">
+        <img src="./public/images/artificial.jpg" alt="natural plants">
+        <div class="content">
+          <h3>Artificial Plants</h3>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ..</span>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./public/images/table pot.jpg" alt="natural plants">
+        <div class="content">
+          <h3>Table Plants</h3>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ..</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--====================PRODUCTS SECTION================================-->
+ <div class="container-pr">
+  <div class="header-pr">
+    <h1>Featured Plants</h1>
+  </div>
+  <div class="tabs">
+    <a class="active">New Arrival</a>
+    <a>Best Selling</a>
+    <a>Top Rated</a>
+  </div>
+  <div class="product-grid" id="product-grid"></div>
+</div>
+
+
+
+<div class="about-h1">
+  <h1>About Us!</h1>
+</div>
+<section class="about section container" id="about">
+  <div class="about__container grid">
+      <img src="./public/images/about.png" alt="" class="about__img ">
+
+      <div class="about__data">
+          <h2 class="section__title about__title">
+              Who we really are &amp; <br> why choose us
+          </h2>
+
+          <p class="about__description">
+              We have over 4000+ unbiased reviews and our customers <br>
+              trust our plant process and delivery service every time
+          </p>
+
+          <div class="about__details">
+              <p class="about__details-description">
+                  <i class="fa-solid fa-star" style="margin-right: 1vmin; color:  #0b4638;"></i> 
+                  We always deliver on time.
+              </p>
+              <p class="about__details-description">
+                   <i class="fa-solid fa-star" style="margin-right: 1vmin; color:  #0b4638;"></i> 
+                  We give you guides to protect and care for your plants.
+              </p>
+              <p class="about__details-description">
+                   <i class="fa-solid fa-star" style="margin-right: 1vmin; color:  #0b4638;"></i> 
+                  We always come over for a check-up after sale.
+              </p>
+              <p class="about__details-description">
+                   <i class="fa-solid fa-star" style="margin-right: 1vmin; color:  #0b4638;"></i> 
+                  100% money back guaranteed.
+              </p>
+          </div>
+
+          <a href="#" class="button--link button--flex">
+              Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+          </a>
+      </div>
+  </div>
+</section>
+
+
+<!--=================CONTACT SECTION===========================-->
+ 
+<section class="contact-section">
+  <h1>Contact!</h1>
+  <div class="container">
+    <div class="content">
+      <h1>Reach out to us today <br>
+        via any of the given<br>
+        information</h1>
+        <div class="phone">
+        <h3>Call Us for Instant Support</h3>
+        <span><i class="fa-solid fa-phone"></i> +111 222 333</span>
+        </div>
+        <div class="email">
+          
+        <div class="phone">
+          <h3>Write By Email</h3>
+          <span><i class="fa-solid fa-envelope"></i>muhammedlayan12@gmail.com</span>
+          </div>
+        </div>
+    </div>
+    <div class="form">
+      <form action="" class="form">
+        <input type="text" placeholder="Name" class="name">
+         
+        <input type="text" placeholder="Email" class="email">
+         
+        <input type="text" placeholder="Message" class="msg"> 
+        <button>Send Message <span>&RightArrow;</span></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!--==================footer section==========================-->
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section name">
+      <h1>PlantsHub.</h1>
+      <span>🌱 At PlantsHub, we believe in the beauty of nature 🌿. Our mission is to bring the joy of plants into every home ❤️.</span>
+
+    </div>
+    <div class="footer-section contact-us">
+      <h3>Contact Us</h3>
+      <p>123 Greenway Drive<br>Plant City, FL 12345</p>
+      <p>Email: support@plantshub.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </div>
+    
+    <div class="footer-section quick-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section subscribe">
+      <h3>Subscribe</h3>
+      <p>Join our newsletter to stay updated on the latest plant care tips and promotions.</p>
+      <form id="subscribe-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>&copy; 2024 PlantsHub. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+<!--Hamburger-->
+<div id="side-menu" class="side-menu">
+  <div class="close-menu" id="close-menu">
+    <p id="cut-btn" onclick="closeSideMenu()">&Cross;</p>
+  </div>
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Collection</a></li>
+    <li><a href="">Shop</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+</div>
+
+<!--Contact-->
+<div class="contact">
+  <img src="./public/images/facebook.svg" alt="">
+  <img src="./public//images/insta.svg" alt="">
+  <img src="./public//images/linkedin.svg" alt="">
+</div>
+
+<!--background canvas-->
+<div id="particles-js"></div>
+
+
+
+    <script src="products.json"></script>
+     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>

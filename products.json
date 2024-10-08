@@ -1,0 +1,56 @@
+[
+    {
+      "name": "Snake Plant",
+      "category": "Indoor Plants",
+      "price": 20.00,
+      "image": "./public/images/snakeplantpr2.png"
+    },
+    {
+      "name": "Fiddle Leaf Fig",
+      "category": "Indoor Plants",
+      "price": 45.00,
+      "image": "./public/images/FiddleLeafFigpr3.jpg"
+    },
+    {
+      "name": "Monstera Deliciosa",
+      "category": "House Plants",
+      "price": 35.00,
+      "image": "./public/images/Monstera Deliciosapr4.webp"
+    },
+    {
+      "name": "Aloe Vera",
+      "category": "Succulents",
+      "price": 12.00,
+      "image": "./public/images/aloeverapr1.jpg"
+    },
+    {
+      "name": "Bonsai Tree",
+      "category": "Bonsai Plants",
+      "price": 60.00,
+      "image": "./public/images/bhonsaipr5.jpg"
+    },
+    {
+      "name": "Peace Lily",
+      "category": "Indoor Plants",
+      "price": 30.00,
+      "image": "./public/images/PeaceLilypr8.jpg"
+    },
+    {
+      "name": "Cactus",
+      "category": "Succulents",
+      "price": 10.00,
+      "image": "./public/images/cactuspr9.webp"
+    },
+    {
+      "name": "Lavender Plant",
+      "category": "Flowering Plants",
+      "price": 18.00,
+      "image": "./public/images/lavender pr10.jpg"
+    },
+    {
+      "name": "Herb Planter Set",
+      "category": "Planters & Accessories",
+      "price": 25.00,
+      "image": "./public/images/Herb Planter Setpr11.jpg"
+    }
+  ]
